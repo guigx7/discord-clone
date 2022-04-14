@@ -47,8 +47,8 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const SettingsIcon = styled(PersonAdd)`
-    width: 16px;
-    height: 16px;
+    width: 19px;
+    height: 19px;
     color: var(--symbol);
     cursor: pointer;
     transition: color .2s;
@@ -60,8 +60,8 @@ export const SettingsIcon = styled(PersonAdd)`
 `;
 
 export const InviteIcon = styled(Settings)`
-   width: 16px;
-    height: 16px;
+   width: 19px;
+    height: 19px;
     color: var(--symbol);
     cursor: pointer;
     transition: color .2s;
