@@ -21,6 +21,7 @@ export const Avatar = styled.div`
     height: 32px;
     border-radius: 50%;
     background-color: var(--gray);
+    cursor: pointer;
 `;
 
 export const UserData = styled.div`
@@ -33,11 +34,13 @@ export const UserData = styled.div`
        font-weight: bold;
        color: var(--white);
        display: block;
+       cursor: pointer;
    }
 
    > span{
         font-size: 13px;
         color: var(--gray);
+        cursor: default;
    }
 `;
 

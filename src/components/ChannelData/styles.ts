@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AlternateEmail } from "styled-icons/material";
+import { AddCircle } from "styled-icons/material";
 
 export const Container = styled.div`
   grid-area: CD;
@@ -56,8 +56,13 @@ export const Input = styled.input`
     }
 `;
 
-export const InputIcon = styled(AlternateEmail)`
+export const InputIcon = styled(AddCircle)`
     width: 24px;
     height: 24px;
-    color: var(--gray)
+    color: var(--gray);
+    cursor: pointer;
+
+    &:hover{
+        color: var(--white)
+    }
 `;

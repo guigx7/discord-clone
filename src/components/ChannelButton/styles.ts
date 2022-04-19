@@ -32,6 +32,10 @@ export const Container = styled.div`
 
          > .icons svg {
              display: flex;
+
+             &:nth-child(1) {  
+                 margin-right: 4px;
+             }
          }         
      }
 
@@ -47,12 +51,11 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const SettingsIcon = styled(PersonAdd)`
-    width: 19px;
-    height: 19px;
+    width: 15px;
+    height: 15px;
     color: var(--symbol);
     cursor: pointer;
     transition: color .2s;
-    margin-left: 5px;
 
     &:hover{
         color: var(--white);
@@ -60,8 +63,8 @@ export const SettingsIcon = styled(PersonAdd)`
 `;
 
 export const InviteIcon = styled(Settings)`
-   width: 19px;
-    height: 19px;
+   width: 15px;
+    height: 15px;
     color: var(--symbol);
     cursor: pointer;
     transition: color .2s;
