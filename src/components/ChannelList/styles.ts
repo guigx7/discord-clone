@@ -14,6 +14,7 @@ export const Category = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 6px;
+    margin-top: 20px;
     
     > span{
         text-transform: uppercase;
@@ -21,6 +22,11 @@ export const Category = styled.div`
         font-weight: 500;
         color: var(--gray);
     }
+
+    &:nth-child(1){
+        margin-top: 0;
+    }
+    
 `
 
 export const AddCategoryIcon = styled(Add)`

@@ -16,6 +16,7 @@ export default createGlobalStyle`
 
 html, body, #root{
     height: 100%;
+    overflow: hidden;
 }
 
 :root {
@@ -28,7 +29,8 @@ html, body, #root{
  
     --white: #fff;
     --gray: #8a8c90;
-    --chat-input: rgb(64,68,75);
+    --chat-input: rgb(64,68,75); 
+    --chat-text: #dcddde;
     --symbol: #74777a;
  
     --notification: #f84a4b;
@@ -36,6 +38,8 @@ html, body, #root{
     --mention-detail: #f9a839;
     --mention-message: #413f3f;
  
+    --mention: rgba(88, 101, 242, 0.3);
+    --mention-highlight: rgba(88, 101, 242, 0.9);
     --link: #5d80d6;
  
     --rocketseat: #6633cc;
